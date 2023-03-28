@@ -1,4 +1,4 @@
-﻿# Project name
+﻿# Academy landing page
 
 ## Made with 🛠️
 
@@ -16,7 +16,7 @@
 
 ## Table of contents 📄
 
-- [Project name](#project-name)
+- [Academy landing page](#academy-landing-page)
   - [Made with 🛠️](#made-with-️)
   - [Table of contents 📄](#table-of-contents-)
   - [Page 💻](#page-)
@@ -30,11 +30,11 @@
 
 ## Page 💻
 
-https://project-name-page.netlify.app/
+https://academy-landing-page.netlify.app/
 
 ## Template 👇
 
-https://www.figma.com/file/project-name-template
+https://www.figma.com/file/zcs3GIBpEa65Mp7Np5UvJV/Academy_Responsive_Landing
 
 ## Prerequisites 🔎
 
