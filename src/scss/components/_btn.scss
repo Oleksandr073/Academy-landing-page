@@ -1,0 +1,61 @@
+.btn {
+    @extend %button-reset;
+    padding: 14px 14px;
+    text-align: center;
+
+    @include fontSizeLineHeight(14px, 18px);
+    font-weight: 700;
+    color: $accentColor;
+
+    background-color: transparent;
+    border: 1px solid rgba(74, 144, 226, 0.3); // 30% $accentColor
+    border-radius: 6px;
+
+    transition: color $fastTransition, background-color $fastTransition, border $fastTransition;
+    
+    &:hover,
+    &:focus {
+        color: #FFFFFF;
+        background-color: $accentColor;
+        border-color: $accentColor;
+    }
+
+    // .btn--inverse 
+
+    &--inverse {
+        color: #FFFFFF;
+        background-color: $accentColor;
+        border-color: $accentColor;
+
+        &:hover,
+        &:focus {
+            color: $accentColor;
+            background-color: transparent;
+            border: 1px solid rgba(74, 144, 226, 0.3); // 30% $accentColor
+        }
+    }
+
+    // .btn--sm 
+
+    &--sm {
+        min-width: 126px;
+    }
+
+    // .btn--md
+
+    &--md {
+        min-width: 138px;
+    }
+
+    // .btn--lg
+
+    &--lg {
+        min-width: 154px;
+    }
+
+    // .btn--xl
+
+    &--xl {
+        min-width: 170px;
+    }
+}
