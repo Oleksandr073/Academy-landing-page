@@ -1,0 +1,18 @@
+.logo {
+    
+    // .logo__icon
+
+    &__icon {
+        width: 91px;
+        height: 32px;
+
+        fill: $primaryTextColor;
+
+        transition: fill $fastTransition;
+    }
+
+    &:hover &__icon,
+    &:focus &__icon{
+        fill: $accentColor;
+    }
+}
